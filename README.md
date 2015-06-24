@@ -1,6 +1,6 @@
 # iMsgBridge
 
-iMsgBridge is an iMessage Bridge Server needed for iMsgQuickReply. This is not for everyone and is available just for experimental purposes.
+iMsgBridge is an iMessage Bridge Server needed for iMsgQuickReply.
 
 Configuration
 =======
@@ -23,3 +23,8 @@ You can write down:
 - *and*, the password you put in the config file.
 
 You will need to specify those values in the iMsgQuickReply configuration.
+
+Notes
+=======
+
+This is not for everyone and is available just for experimental purposes. Also, please note that the data communication between the app and your server will not be encrypted by default.

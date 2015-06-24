@@ -29,4 +29,4 @@ You will need to specify those values in the iMsgQuickReply configuration.
 Notes
 =======
 
-This is not for everyone and is available just for experimental purposes. Also, please note that the data communication between the app and your server will not be encrypted by default.
+This is not for everyone and is available just for experimental purposes. Also, please note that the data communication between the app and your server will not be encrypted by default. AppleScript by https://github.com/clhynfield/imessage-sh.

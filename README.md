@@ -5,6 +5,8 @@ iMsgBridge is an iMessage Bridge Server needed for iMsgQuickReply.
 Configuration
 =======
 
+Set up your Messages app on your OS X.
+
 Edit the config.yml file with your password and contacts.
 
 Your contacts must match the address/phone on your Messages app (OS X).

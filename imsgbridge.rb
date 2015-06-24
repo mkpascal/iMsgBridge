@@ -30,6 +30,20 @@ get '/imsgbridge' do
   JSONP data
 end
 
+get '/pebble/contacts' do
+  password_params = params['password']
+  password = settings.password
+
+  if password_params == password
+
+    data = {:contact => settings.contact, :status => 'received'}
+  else
+    data = {:status => 'unauthenticated'}
+  end
+
+  JSONP data
+end
+
 error do
   data = {:status => 'error'}
   JSONP data

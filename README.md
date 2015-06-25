@@ -14,8 +14,9 @@ Your contacts must match the address/phone on your Messages app (OS X).
 Usage
 =======
 
-```bundle install``` then
-```ruby -rubygems imsgbridge.rb -o 0.0.0.0```
+1. If you don't have bundler, install it with ```gem install bundler```
+2. Then, install the libraries needed for the server with ```bundle install```
+3. Finally, you can start the server with ```ruby -rubygems imsgbridge.rb -o 0.0.0.0```
 
 Once you've done that, the server is ready to use. That's it.
 
